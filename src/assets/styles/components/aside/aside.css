@@ -1,0 +1,22 @@
+.aside_list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.aside_items {
+    max-width: 235px;
+    width: 16vw;
+    min-width: 120px;
+}
+
+.aside_items:hover {
+    padding: 10px;
+    background-color: var(--default);
+    color: var(--text-btn-color);
+    transition: 1s;
+}
+
+.aside_items:hover > .aside_items_link {
+    color: var(--text-btn-color);
+}

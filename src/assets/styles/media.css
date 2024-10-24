@@ -1,0 +1,219 @@
+
+@media screen and (max-width: 1840px) {
+    #app {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    #app {
+        padding: 0 40px;
+    }
+
+    .aside_items {
+        width: 127px;
+    }
+
+    .banner_content {
+        position: absolute;
+        top: 0;
+        left: 30%;
+    }
+    
+    .banner_textblock {
+        left: 55%;
+    }
+
+    .card_img {
+        width: 190px;
+    }
+
+    .footer {
+        padding: 0 0 40px 0;
+    }
+
+    .footer_menu {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .banner_content {
+        position: absolute;
+        top: 0;
+        left: 30%;
+    }
+
+    .banner_title {
+        margin-bottom: 30px;
+    }
+
+    .banner_textblock {
+        width: 0;
+        left: 43%;
+    }
+
+    .about_textblock {
+        min-width: 0;
+    }
+
+    .about_img {
+        height: 122px;
+    }
+
+    .cards_section {
+        grid-template-columns:  1fr;
+        gap: 20px;
+    }
+
+    .card:nth-child(4n),
+    .card:nth-child(4n+1) {
+        background-color: var(--main-color);
+    }
+
+    .card:nth-child(even){
+        background-color: var(--second-color);
+    }
+
+    .quiz_questions_btn {
+        align-self: center;
+    }
+
+    .btn_scroll_block {
+        justify-self: flex-end;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #app {
+        padding: 0;
+    }
+
+    #app > *:first-child {
+        margin-bottom: 0;
+    }
+
+    .header {
+        padding: 40px;
+    }
+
+    .header_logo_link {
+        gap: 25px;  
+    }
+
+    .home_container > .section:not(:first-child) {
+        padding: 0 40px;
+    
+    }
+    .section:not(:first-child, .quiz_section) {
+        padding: 0 40px;
+    }
+
+    .banner_content {
+        top: 10%;
+    }
+
+    .about_textblock {
+        min-width: 0;
+    }
+
+    .quiz_section {
+        margin: 0 40px;
+    }
+
+    .btn_scroll_block {
+        margin-right: 40px;
+    }
+
+    .footer {
+        padding: 0px 40px 80px 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    .about_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .about_img {
+        max-width: none;
+        height: 100%;
+        width: 100%;
+    }
+
+    .quiz_section {
+        padding: 20px;
+    }
+
+    .quiz_result_content {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .quiz_question {
+        padding: 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .copyright_block {
+        align-items: center;
+    }
+
+    .footer_menu {
+        width: 100%;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .footer_list {
+        align-items: center;
+    }
+
+    .btn_scroll_block {
+        margin: 0;
+    }
+
+    .btn_scroll {
+        right: 40px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .banner_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .card {
+        flex-direction: column;
+    }    
+}
+
+@media screen and (max-width: 391px) {
+    .banner_content {
+        top: 0;
+    }
+
+    .banner_title {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .header {
+        padding: 40px 20px;
+    }
+  }

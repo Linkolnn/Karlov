@@ -1,0 +1,85 @@
+@import '/public/fonts/fonts.css';
+
+/* -----------------------------__----------------------------- */
+
+/* -----------------------------_fonts_----------------------------- */
+/* size */
+:root {
+  --logo: clamp(18px, 6vw, 36px);
+  --h1: clamp(24px, 4vw, 56px);
+  --h2: clamp(20px, 3vw, 32px);
+  --h3: clamp(18px, 3vw, 24px);
+  --menu-item: clamp(18px, 3vw, 24px);
+  --text: clamp(16px, 3vw, 18px);
+  --btn: 16px;
+}
+/* weight */
+:root {
+  --bold: 700;
+  --semibold: 600;
+  --regular: 400;
+}
+/* family */
+:root {
+  --font-title: "Libre Baskerville", serif;
+  --font-title-card: "Work Sans", sans-serif;
+  --font-text-menu: "Work Sans", sans-serif;
+  --font-text: "Work Sans", sans-serif;
+}
+
+
+/* -----------------------------_color_----------------------------- */
+
+/* block */
+:root {
+  --main-color: #ffffff;
+  --second-color: #ECECEC;
+  --card-color: #ECECEC;
+}
+
+/* text */
+:root {
+  --main-text-color: #201D1F;
+  --second-text-color: #524C52;
+  --third-text-color: #6E6B70;
+}
+
+/* btn */
+:root {
+  --btn-border-color: #201D1F;
+  --text-btn-color: #FEDAD3;
+  --text-hover-btn-color: #ffffff;
+  --text-btn-color-disabled: #FFFFFF;
+  --default: #E44D48;
+  --hover: #ECB6B6;
+  --pressing: #D77171;
+  --disabled: #6E6B70;
+}
+
+/* -----------------------------__----------------------------- */
+*,
+*::before,
+*::after {
+  border: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+#app {
+  max-width: 1840px;
+  margin: 0 auto;
+}
+#app > *:not(:first-child, :last-child, .btn_scroll_block) {
+  margin-bottom: 80px;
+}
+#app > *:first-child {
+  margin-bottom: 40px;
+}
+.main {
+  display: flex;
+  gap: 60px;
+}

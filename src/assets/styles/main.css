@@ -1,0 +1,67 @@
+@import './base.css';
+
+/* -----------------------------_logo_----------------------------- */
+
+.logo {
+  width: clamp(20px, 6vw, 35px);
+}
+
+/* -----------------------------_text_----------------------------- */
+
+.nav_text {
+  font-family: var(--font-text-menu);
+  font-size: var(--menu-item);
+  font-weight: var(--regular);
+  color: var(--third-text-color);
+}
+
+.text {
+  font-family: var(--font-text-menu);
+  font-weight: var(--regular);
+  color: var(--third-text-color);
+}
+
+/* -----------------------------_btn_----------------------------- */
+.btn {
+  font-size: var(--btn);
+  font-weight: var(--semibold);
+  color: var(--text-btn-color);
+  background-color: var(--default);
+  transition: 1s;
+}
+
+.btn:hover {
+  background-color: var(--hover);
+  color: var(--text-hover-btn-color);
+  transition: 1s;
+}
+
+.btn_scroll {
+  border: 1px solid var(--btn-border-color);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  bottom: 40px;
+  transition: 1s;
+}
+
+.btn_scroll:hover {
+  background-color: var(--hover);
+  color: var(--text-hover-btn-color);
+  transition: 1s;
+}
+
+.scroll_to_top_body {
+  position: fixed;
+  transition: all 0.5s ease;
+}
+
+.scroll_to_top_footer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transition: all 0.5s ease;
+}
+/* -----------------------------_section_----------------------------- */

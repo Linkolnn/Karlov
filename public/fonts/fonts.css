@@ -1,0 +1,29 @@
+/* Libre Baskerville */
+@font-face {
+    font-weight: 700; /* bold */ 
+    font-family: Libre Baskerville;
+    src: url('./Libre\ Baskerville/LibreBaskerville-Bold.ttf') format('.tff');
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 400; /* Regular */
+    font-family: Libre Baskerville;
+    src: url('./Libre\ Baskerville/LibreBaskerville-Regular.ttf') format('.ttf');
+    font-display: swap;
+}
+
+/* Work Sans */
+@font-face {
+    font-weight: 400; /* Regular */
+    font-family: Work Sans;
+    src: url('./Work\ SansRegular/WorkSans-Regular.ttf') format('.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 600; /* SemiBold */
+    font-family: Work Sans;
+    src: url('./Work\ Sans/WorkSans-SemiBold.ttf') format('.ttf');
+    font-display: swap;
+}
