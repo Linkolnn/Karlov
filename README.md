@@ -14,7 +14,7 @@
 
 См. [Справочник по настройке Vite](https://vite.dev/config/).
 
-## Настройка проекта (npm istall установит пакеты "node_modules" для работы vite и vue, без них сервер не запуститься)
+## Настройка проекта (npm install установит пакеты "node_modules" для работы vite и vue, без них сервер не запуститься)
 
 ```sh
 npm install
