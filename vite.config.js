@@ -15,6 +15,7 @@ export default defineConfig({
       '@composable': path.resolve(__dirname, "src", "composable"),
       '@views': path.resolve(__dirname, "src", "views"),
       '@ui': path.resolve(__dirname, "src", "ui"),
+      '@fonts': path.resolve(__dirname, "public", "fonts"),
       '@styles': path.resolve(__dirname, "src", "assets", "styles"),
       '@services': path.resolve(__dirname, "src", "services")
     }

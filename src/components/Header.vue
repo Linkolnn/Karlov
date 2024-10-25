@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink } from 'vue-router';
-import HeaderMenu from './header/HeaderMenu.vue';
-import BurgerMenu from './header/BurgerMenu.vue';
+import HeaderMenu from '@components/header/HeaderMenu.vue';
+import BurgerMenu from '@components/header/BurgerMenu.vue';
 import { screenWidth } from '@composable/screenWidthTracking.js';
 
 const { windowWidth } = screenWidth(769);

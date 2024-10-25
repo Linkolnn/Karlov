@@ -1,5 +1,5 @@
 <script setup>
-import questions from '@services/questions';
+import services from '@services/questions';
 import { ref, computed } from 'vue';
 
 const 
@@ -9,9 +9,9 @@ const
     isNextEnabled = ref(false),
     showResults = ref(false);
 
-const currentQuestion = computed(() => questions[currentQuestionIndex.value]);
+const currentQuestion = computed(() => services.getQuestions()[currentQuestionIndex.value]);
 
-const isLastQuestion = computed(() => currentQuestionIndex.value === questions.length - 1);
+const isLastQuestion = computed(() => currentQuestionIndex.value === services.getQuestions().length - 1);
 
 const resultMessage = computed(() => {
   if (correctAnswersCount.value === 5) return 'GREAT RESULT!';
