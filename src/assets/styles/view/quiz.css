@@ -104,4 +104,5 @@
     background-color: var(--disabled);
     color: var(--text-btn-color-disabled);
     transition: 1s;
+    pointer-events: none;
 }
